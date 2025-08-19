@@ -1,6 +1,6 @@
 # A Replication of the Treynor (1971) Dealer Model
 
-This repository contains the Python code and research for our paper, "Foundations of Dealer Markets: A Replication and Analysis of the Treynor Model."
+This repository contains the Python code and research for our upcoming papers on **orderbook dynamics and dealer behaviour** in current highly evolved markets.
 
 ## Abstract
 
