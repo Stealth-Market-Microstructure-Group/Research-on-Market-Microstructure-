@@ -12,8 +12,6 @@ The primary result of the model shows that the required bid-ask spread a market 
 
 ![Treynor Model Results](results_image.png)
 
-*(To add the image: take a screenshot of your graph, upload it to the GitHub repository, and then change the link here)*
-
 ## Full Paper
 
 The complete paper with our full analysis and methodology has been published on Zenodo and can be accessed via the link below:
