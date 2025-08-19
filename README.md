@@ -10,7 +10,7 @@ This project presents a computational replication of the foundational 1971 Treyn
 
 The primary result of the model shows that the required bid-ask spread a market maker must charge increases exponentially as the probability of trading with an informed party increases.
 
-![Treynor Model Results]()
+![Treynor Model Results](results_image.png)
 
 *(To add the image: take a screenshot of your graph, upload it to the GitHub repository, and then change the link here)*
 
