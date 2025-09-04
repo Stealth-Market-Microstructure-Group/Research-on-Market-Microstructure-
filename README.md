@@ -16,7 +16,7 @@ The primary result of the model shows that the required bid-ask spread a market 
 
 The complete paper with our full analysis and methodology has been published on Zenodo and can be accessed via the link below:
 
-**[Click here to view the full paper on Zenodo](https://zenodo.org/records/16904012)**
+**[Click here to view the full paper on Zenodo](https://zenodo.org/records/16921558)**
 
 ## Future Work
 
