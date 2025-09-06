@@ -1,30 +1,27 @@
-# A Replication of the Treynor (1971) Dealer Model
+# Quantitative Market Structure Research
 
-This repository contains the Python code and research for our upcoming papers on **orderbook dynamics and dealer behaviour** in current highly evolved markets.
+## About this Initiative
+We are an independent research group focused on the structural dynamics of modern financial markets. Our work combines quantitative modeling with a robust, proprietary simulation framework to analyze market phenomena that are often inaccessible through purely theoretical methods.
 
-## Abstract
+## Methodology
+Our approach is intentionally multi-disciplinary, integrating concepts from:
+- **Market Microstructure Theory:** Building upon and extending foundational models (e.g., Treynor, Glosten-Milgrom) to better reflect contemporary market conditions.
+- **Econometrics & Statistics:** Applying rigorous statistical analysis to high-frequency data.
+- **Systems Engineering:** Understanding the impact of latency, data flow, and exchange architecture.
+- **Regulatory & Legal Frameworks:** Analyzing how market rules and enforcement actions shape participant behavior.
 
-This project presents a computational replication of the foundational 1971 Treynor dealer model. We implement the core mathematical relationship between a market maker's bid-ask spread and the probability of trading with an informed party. The model demonstrates that adverse selection is a quantifiable cost that market makers must offset by widening their spread, effectively creating a "liquidity tax" paid by uninformed market participants.
+All hypotheses are validated against a proprietary simulation environment built to replay historical ITCH data. During the buildout of our primary Kafka pipeline, we supplement our analysis with custom data acquisition tools.
 
-## Key Result
+## Current Research Focus
+Our active areas of investigation include:
+- The mechanics of dealer markets and hot-potato trading dynamics.
+- Modeling and detection of illegal spoofing and layering strategies.
+- The formation and behavior of liquidity queues in limit order books.
+- Analysis of foundational models and there connection with current advanced markets.
 
-The primary result of the model shows that the required bid-ask spread a market maker must charge increases exponentially as the probability of trading with an informed party increases.
+## The Group
+Our team's composition includes members with deep domain experience in proprietary trading, low-latency systems development, and quantitative research. This structure allows us to approach problems from both a practitioner's and a researcher's perspective.
 
-![Treynor Model Results](results_image.png)
-
-## Full Paper
-
-The complete paper with our full analysis and methodology has been published on Zenodo and can be accessed via the link below:
-
-**[Click here to view the full paper on Zenodo](https://zenodo.org/records/16921558)**
-
-## Future Work
-
-The next phase of this research will extend this foundational model into a dynamic, **agent-based simulation** of a limit order book. We will explore the interactions between different market participants—such as liquidity providers and takers—and model more complex behaviors like **"hot-potato" inventory dynamics**. This work aims to bridge classic dealer models with modern market microstructure by adapting established institutional research frameworks.
-
-## How to Run
-
-The analysis is contained entirely within the `notebook_1.ipynb` file. To run it, you will need Python with the following libraries installed:
-* Jupyter
-* NumPy
-* Matplotlib
+For more details, please contact:
+`spcmer@gmail.com` or
+`p737917355@gmail.com`
